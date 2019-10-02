@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mr.jar</groupId>
+  <artifactId>multi.project</artifactId>
+  <version>0.0.14</version>
+  <name>mrJar Multi-Project Support</name>
+  <description>A utility module that supports the mrJar plugin's multi-project capabilities.</description>
+  <url>http://lingocoder.com/mrjar</url>
+  <licenses>
+    <license>
+      <name>Creative Commons Attribution-NoDerivatives 4.0 International (CC BY-ND 4.0) License</name>
+      <url>https://creativecommons.org/licenses/by-nd/4.0/</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Mister Jar</name>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:https://github.com/lingocoder/mrJar.multi.project.support.git</connection>
+    <developerConnection>scm:git:https://github.com/lingocoder/mrJar.multi.project.support.git</developerConnection>
+    <url>https://github.com/lingocoder/mrJar.multi.project.support/tree/master</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>mr.jar</groupId>
+      <artifactId>common</artifactId>
+      <version>0.0.14</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>ch.qos.logback</groupId>
+      <artifactId>logback-classic</artifactId>
+      <version>1.3.0-alpha4</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
